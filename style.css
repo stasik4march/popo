@@ -1,0 +1,98 @@
+*,
+*:before,
+*,:after {
+    padding: 0;
+    margin: 0;  
+    -webkit-box-sizing:border-box ;
+    box-sizing: border-box;
+}
+
+*:not(i) {
+    font-family: "SEGOE PRINT";
+    color: white;
+
+}
+
+body {
+    height: 100vh;  
+background-color: #91abff;
+background-color:#91abff ;
+}
+.box {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+  width: 320px;  
+}
+
+.clock {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.06);
+   -webkit-backdrop-filter: blur(15px);
+   backdrop-filter: blur(15px);
+   background-color: blur(15px);
+   padding: 50px 25px;
+   -webkit-box-shdow: 0 25px 23px rgba(0, 0, 0, 0.15) ;
+   box-shadow:0 25px 23px rgba(0, 0, 0, 0.15);
+   border: 1.5px solid rgba(255, 255, 255, 0.6); 
+   border-radius: 8px;
+}
+
+
+.shape1 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    background: -o-linear-gradient(315deg, #280df2, #624eff);
+    background: linear-gradient(115deg, #ff00fb, #624eff); 
+    border-radius: 50%;
+    bottom: 188px;
+    right: 89px;
+    z-index: -1;
+}
+.shape2 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    background: -o-linear-gradient(315deg, rgb(255, 0, 98), #fe00d0);
+    background: linear-gradient(115deg, #fff3f8, #00bfff); 
+    border-radius: 50%;
+    top: 188px;
+    left: 89px;
+    z-index: -1;
+}
+
+
+.wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.item {
+    padding: 10px;
+
+}
+
+#time {
+    font-size: 40px;
+    display: inline-block;
+}
+
+#day {
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c5c5c5;
+    text-align: center;
+}
